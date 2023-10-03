@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompleteOrdersForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompleteOrdersForm.Designer.cs">
+      <DependentUpon>CompleteOrdersForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="NewOrderForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NewOrderForm.Designer.cs">
+      <DependentUpon>NewOrderForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CompleteOrdersForm.resx">
+      <DependentUpon>CompleteOrdersForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NewOrderForm.resx">
+      <DependentUpon>NewOrderForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -85,6 +103,45 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\306148787_512560377543920_5175169491060625538_n.png.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-menu-30.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\306148787_512560377543920_5175169491060625538_n.png-removebg-preview %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clipboard-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clipboard-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clipboard-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-proveedor-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-clientes-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-pasado-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-estadísticas-35.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\306148787_512560377543920_5175169491060625538_n.png-removebg-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-más-2-matemáticas-75.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-más-2-matemáticas-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-más-2-matemáticas-50.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
